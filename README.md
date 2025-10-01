@@ -52,4 +52,4 @@ Coded by [Boldbug](#) as part of the Frontend Mentor challenge.
 
 Challenge by [Frontend Mentor](https://www.frontendmentor.io?ref=challenge)
 
-This readme is written by Microsoft Copilot AI
+This readme is written by Microsoft Copilot AI( I wrote this  intentionally)
