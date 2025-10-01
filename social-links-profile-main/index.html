@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: "Inter-Bold";
+      src: url("assets/fonts/static/Inter-Bold.ttf" ),format("truetype");
+
+    }
+
+     @font-face {
+      font-family: "Inter-Regular";
+      src: url("assets/fonts/static/Inter-Regular.ttf" ),format("truetype");
+    }
+     @font-face {
+      font-family: "Inter-Semi";
+      src: url("assets/fonts/static/Inter-SemiBold.ttf" ),format("truetype");
+    }
+    @font-face {
+      font-family: "Inter-Var";
+      src: url( "assets/fonts/Inter-VariableFont_slnt,wght.ttf"),format("truetype");
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    body
+    {
+      background-color: rgb(24, 23, 23);
+      margin: 0;
+      padding: 0;
+      font-family: "Inter-Regular";
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .bio
+    {
+      text-align: center;
+      color: white;
+      display: flex;
+      color: white;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .name{
+      font-family:"Inter-Semi";
+      font-size: 2.5em;
+    }
+
+    .location
+    {
+      font-family:"Inter-bold";
+      color: rgb(155, 251, 91);
+      font-size: 1.2em;
+    }
+
+    .occupation
+    {
+      font-family: "Inter-Var";
+    }
+
+    .card
+    {
+      width: 500px;
+      height: 900px;
+      background-color: rgb(46, 45, 45);
+      display:flex;
+      border-radius: 20px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 24px;
+      transform: scale(0.7);
+      position:fixed;
+    }
+
+    .social-links ul
+    {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      text-align:center;
+      gap: 20px;
+      padding: 0;
+    }
+
+     .social-links ul a
+     {
+      text-decoration: none;
+      color: white;
+      font-size: 1.3em;
+      width: 400px;
+      height: 60px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      background-color: rgb(58, 58, 58);
+      border-radius: 20px;
+      font-family:"Inter-Semi";
+      transition: all ease-out 0.4s;
+      padding: 5px;
+     }
+
+     .pfp img
+     {
+      border-radius: 50%;
+      width: 150px;
+     }
+
+     .social-links ul a:hover
+     {
+      color: black;
+      background-color: rgb(154, 250, 89);
+     }
+
+     .social-links ul a:active
+     {
+      color: black;
+      background-color: rgb(154, 255, 117);
+      transform: scale(0.95);
+     }
+
+     @media  (min-width:900px ) {
+      .card{
+        transform: scale(1.1);
+      }
+     }
+
+     @media (max-width:372px)
+     {
+      .card{
+        transform: scale(0.5);
+      }
+     }
+
+     @media (max-width:255px)
+     {
+      .card{
+        transform: scale(0.4);
+      }
+      
+     }
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="pfp">
+      <img src="assets\images\avatar-jessica.jpeg">
+    </div>
+  <div class="bio">
+  <div class="name">Jessica Randall</div>
+  <div class="location">London, United Kingdom</div>
+  <div class="occupation">"Front-end developer and avid reader."</div>
+  </div>
+  
+<div class="social-links">
+  <ul>
+    <li><a href="#">GitHub</a></li>
+    <li><a href="#">Frontend Mentor</a></li>
+    <li><a href="#">Linkedin</a></li>
+    <li><a href="#">Twitter</a></li>
+    <li><a href="#">Instagram</a></li>
+  </ul>
+</div>
+</div>
+
+ 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Boldbug</a>.
+  </div>
+</body>
+</html>
