@@ -4,7 +4,7 @@ This is a solution to the [Social Links Profile challenge](https://www.frontendm
 
 ## 📸 Live Preview
 
-[View Live Site](#) <!-- Replace with your live site URL if hosted -->
+[View Live Site](https://boldbug1.github.io/Socials-link-card/) 
 
 ## 🛠️ Built With
 
@@ -39,7 +39,7 @@ The layout adapts to different screen sizes using media queries:
 
 ## 👨‍💻 Author
 
-Coded by [Boldbug](#) as part of the Frontend Mentor challenge.
+Coded by [Boldbug](https://boldbug1.github.io) as part of the Frontend Mentor challenge.
 
 ## 🧠 What I Learned
 
